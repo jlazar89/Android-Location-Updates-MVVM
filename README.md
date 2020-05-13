@@ -15,6 +15,6 @@ mapFragment.getMapAsync { googleMap ->
 ask Location permission 
 - on Location Permission granted check if user has Location setting turned on
 - Once you are all set, then call ```fusedLocationClient.requestLocationUpdates()``` to get current updates 
-- Plot the latlon on the map
+- Plot the latlong on the map
 
 
