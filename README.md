@@ -12,6 +12,16 @@ Steps To get Location updates
 5. Once you are all set, then call fusedLocationClient.requestLocationUpdates() to get current updates 
 6. Plot the received latlong on the map
 
+#External Libraries Used
+[RuntimePermission](https://github.com/florent37/RuntimePermission)
 
 
+This is makes runtime permissions really easy and callback is received inline 
+You just have to call askPermission with the list of wanted permissions
+In Kotlin:
 
+    askPermission(Manifest.permission.ACCESS_FINE_LOCATION){
+       //all of your permissions have been accepted by the user
+    }.onDeclined { e -> 
+       //at least one permission have been declined by the user 
+    }
