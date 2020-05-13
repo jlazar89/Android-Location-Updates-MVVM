@@ -12,7 +12,7 @@ Steps To get Location updates
 5. Once you are all set, then call fusedLocationClient.requestLocationUpdates() to get current updates 
 6. Plot the received latlong on the map
 
-#External Libraries Used
+# External Libraries Used
 [RuntimePermission](https://github.com/florent37/RuntimePermission)
 
 
