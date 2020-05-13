@@ -16,8 +16,10 @@ Steps To get Location updates
 [RuntimePermission](https://github.com/florent37/RuntimePermission)
 
 
-This is makes runtime permissions really easy and callback is received inline 
+This is makes runtime permissions really easy and callback is received inline.
+
 You just have to call askPermission with the list of wanted permissions
+
 In Kotlin:
 
     askPermission(Manifest.permission.ACCESS_FINE_LOCATION){
